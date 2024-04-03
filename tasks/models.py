@@ -22,7 +22,7 @@ class Task(models.Model):
     title = models.CharField(max_length=100)
     description = models.TextField()
     completion_status = models.CharField(max_length=100, choices=completion_status_option, default='')
-    owner = models.ForeignKey(User, on_delete=models.CASCADE)
+    owner = models.ForeignKey(User, on_delete=models.CASCADE, blank=True, null=True)
     label = models.ManyToManyField(Label, related_name='Label', default=None)
     def __str__(self):
         return self.title

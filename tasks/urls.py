@@ -15,4 +15,5 @@ urlpatterns = [
     path('api/', include(router.urls)),
 ]
 
-
+# http://localhost:8000/api/labels/
+# http://localhost:8000/api/tasks/

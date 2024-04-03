@@ -27,17 +27,20 @@
 - `Step 13:` Make templates folder in tasks app and create `index.html` file in that folder. render this index.html file on index function.
 
 - `Step 14:` Do makemigrations and migrate, then createsuperuser to login to admin penal:
-  `python3 manage.py makemigrations
-python3 manage.py migrate
-python3 manage.py createsuperuser
-username: admin
-password: admin`
+
+  `python3 manage.py makemigrations`
+
+`python3 manage.py migrate`
+
+`python3 manage.py createsuperuser`
+
+`username: admin`
+
+`password: admin`
 
 - `Step 15:` create a model named `Label` and then makemigrations and migrate. after that register this class on admin.py. owner is OnetoOneField so that there will be no duplicate record.
 
 - `Step 16:` create model named `task` and add many to many fields and then makemigrations and migrate.
-
-
 
 # Label APi Creation:
 
@@ -49,6 +52,6 @@ password: admin`
 
 # Task Api Creation
 
-- `Step 1:` add task path in urls and allocate the a class named `TaskView`   `router.register(r'tasks' , views.TaskView)`
-- `Step 2:` create class TaskView ,add queryset the task table. 
+- `Step 1:` add task path in urls and allocate the a class named `TaskView` `router.register(r'tasks' , views.TaskView)`
+- `Step 2:` create class TaskView ,add queryset the task table.
 - `Step 3:` creted serlializers class for task table named TaskSerializer mension as serializers_class in TaskView.
