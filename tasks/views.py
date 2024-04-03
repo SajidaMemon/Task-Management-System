@@ -15,7 +15,7 @@ class LabelView(viewsets.ModelViewSet):
     serializer_class = LabelSerializer
     permission_classes = []
 
-class TasksView(viewsets.ModelViewSet):
+class TaskView(viewsets.ModelViewSet):
     queryset = Task.objects.all()
     serializer_class = TaskSerializer
     permission_class = []
