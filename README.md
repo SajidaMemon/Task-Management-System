@@ -1,16 +1,17 @@
 # Task Management System
+
 # Project Setup and run locally
 
-- `Step-1:` Create Virtual Environment. `python3 -m venv env` and Active environment `source env/bin/activate`
+- `Step-1:` Create Virtual Environment. `python3 -m venv env2` and Active environment `source env/bin/activate`
 
 - `Step-2:` Install necessary packages from requirements.txt. `pip install -r requirements.txt`
 
 - `Step-3:` Run the server locally. `python manage.py runserver`
 
-
-
 admin login: http://127.0.0.1:8000/admin
+
 # Admin Credentials:
+
 `User-1:`
 
 `username:` admin
@@ -23,14 +24,13 @@ admin login: http://127.0.0.1:8000/admin
 
 `password:` saji
 
-
 # How I created this project (Step by Step)
 
 - `Step1:` Create a folder and open in editor like vscode
 
-- `Step2:` create virtual environment ----- > `python3 -m venv env`
+- `Step2:` create virtual environment ----- > `python3 -m venv env2`
 
-- `Step3:` activate Virtual enviroment --> `source env/bin/activate`
+- `Step3:` activate Virtual enviroment --> `source env2/bin/activate`
 
 - `Step 4:` install django --> `pip install django`
 
